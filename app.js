@@ -1,6 +1,6 @@
 function PalindromeChecker(strng) {
     for (let i = 0; i < strng.length / 2; i++) {
-        if (strng[i] !== strng[strng.length - 1 - i]) { // Corrected index calculation
+        if (strng[i] !== strng[strng.length - 1 - i]) {
             return false;
         }
     }
